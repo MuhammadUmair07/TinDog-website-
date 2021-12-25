@@ -1,0 +1,165 @@
+/* Html Tags */
+body {
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+p {
+  color: #8F8F8F;
+}
+
+/* Headings */
+.big-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.section-heading {
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+
+/* container fluid */
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* Downlaod Buttons */
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Sections */
+.coloured-section {
+  color: #fff;
+  background-color: #ff4C68;
+}
+
+.white-section {
+  background-color: #FFF;
+}
+
+/* NavBar */
+.navbar {
+  padding-bottom: 4.5rem;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu';
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.2rem;
+}
+
+/* Title Section */
+#title .container-fluid {
+  padding: 0 15% 7%;
+  text-align: left;
+}
+
+.title-image {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+
+.title-image-container {
+  position: relative;
+}
+
+/* Features Section */
+#features {
+  position: relative;
+  z-index: 1;
+}
+
+.feature-title {
+  font-size: 1.4rem;
+}
+
+.feature-box {
+  padding: 5%;
+}
+
+.work-featurebox {
+  padding: 5% 2%;
+}
+
+.feature-icon {
+  color: #EF8172;
+  margin-bottom: 1rem;
+}
+
+.feature-icon:hover {
+  color: #FF4C68;
+}
+
+/*Testimonials Section  */
+#testimonials {
+  background-color: #EF8172;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.testimonial-text {
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+
+/* Press section */
+#press {
+  background-color: #EF8172;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing Section */
+#pricing {
+  padding: 100px;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+.pricing-text {
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+
+/* Footer Section */
+.footer-icon {
+  padding: 20px 10px;
+}
+
+/* Media Quiries */
+@media (max-width : 1028px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+}
